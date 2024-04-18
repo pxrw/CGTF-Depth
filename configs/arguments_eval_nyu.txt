@@ -1,0 +1,11 @@
+--model_name CoGF_nyu_withoutsr
+--encoder large07
+--dataset nyu
+--input_height 480
+--input_width 640
+--max_depth 10
+
+--data_path /media/data3/pxrdata/nyu
+--filenames_file data_splits/nyudepthv2_test_files_with_gt.txt
+
+--checkpoint_path /home/pxr/pxrProject/DepthEstimation/ConvGuidedDepth/models/CoGF_nyu_withoutsr/model-88000-best_rms_0.31640

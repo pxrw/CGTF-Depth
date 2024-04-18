@@ -1,0 +1,12 @@
+--model_name CoGF_kitti
+--encoder large07
+--dataset kitti
+--input_height 352
+--input_width 1216
+--max_depth 80
+--do_kb_crop
+
+--data_path /media/data3/pxrdata/KITTI/image
+--filenames_file data_splits/eigen_test_files_with_gt.txt
+
+--checkpoint_path /home/pxr/pxrProject/DepthEstimation/ConvGuidedDepth/models/CoGF_kitti_withoutsr/model-77000-best_rms_2.12509

@@ -1,0 +1,13 @@
+--model_name CoGF_kitti
+--encoder large07
+--dataset kitti
+--input_height 352
+--input_width 1216
+--max_depth 80
+--do_kb_crop
+
+--data_path /media/data3/pxrdata/KITTI/selection
+--filenames_file data_splits/kitti_official_test.txt
+--max_depth 80
+--save_viz False
+--checkpoint_path /media/data3/pxrweight/CoGF_kitti_withoutsr/model-71000-best_silog_7.19732
